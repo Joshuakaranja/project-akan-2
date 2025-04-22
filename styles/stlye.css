@@ -1,0 +1,152 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f3f3f3;
+   
+}
+
+.container{
+    margin:auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    max-width: 800px;
+    
+
+}
+
+h1{
+    color:black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.paragraph{
+    color: #222;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+
+}
+
+.gender div{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.female label{
+    font-weight: bold;
+    gap: 5px;
+    
+
+    
+}
+.female input{
+    font-weight: bold;
+    align-items: center;
+}
+
+.gender{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.male label{
+    font-weight: bold;
+    text-align: left;
+    gap: 5px;
+}
+.male input{
+    font-weight: bold;
+}
+.date label{
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.result{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff8c6;
+    text-align: centre;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+button{
+    padding: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    
+}
+button:hover{
+    background-color: darkgreen;
+}
+
+.landing-images{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.box-image img{
+    max-width: 300px;
+    text-align: center;
+}
+
+.landing-images img{
+    max-width: 100%;
+    border-radius: 10px;
+    transition: trnsform 0.3s ease;
+
+}
+.image-box img:hover{
+    transform: scale(1.05);
+
+}
+.image-desc{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+}
+
+.site-footer{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border-top: 2px solid #1e5a3f;
+}
+.site-footer a {
+    color: #d2f8e1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.site-footer a:hover{
+    text-decoration: underline;
+}

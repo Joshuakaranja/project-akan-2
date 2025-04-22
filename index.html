@@ -4,27 +4,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PROJECT AKAN 2</title>
-        <link rel="stylesheet" href="stlye.css">
+        <link rel="stylesheet" href="styles/stlye.css">
     </head>
     <body>
                 <div class="container">
                     <h1>Akan Name Generator</h1>
                     <p class="paragraph">Jump into the ghanian heritage as we discover your Akan name based on gender and age. <br> Akan names are generated from Ghanian culture where children are given names based on the day of the week they were born</p>
 
-                    <form id="Akan form">
+
+                    <div class="landing-images">
+                        <div class="image-box">
+                        <img src="images/akan.1.jpg" alt="Akan culture">
+                        <p class="image-desc">Ghanian leaders promoting the culture through which they set an example to children and also the community </p>
+                        </div>
+                        <div class="image-box">
+                        <img src="images/akan 2.jpg" alt="Akan culture 2">
+                        <p class="image-desc">Some of the practices through which the lions head is just but a symbol of pride , leadership and braveness </p>
+                        </div>
+                    </div>
+
+                    <form id="akanform">
                         <div class="date">
                         <label for="birthdate">birthdate</label>
                         <input type="date" id="birthdate">
                         </div>
+
+
                     <div class="gender">
-                        <label for="Gender">Gender group</label>
+                        <label>Gender:</label>
                     </div>
-                    <div class="male">
-                    <input type="text" id="male" name="gender"value="male">
+                    <div>
+                    <input type="radio" id="male" name="gender"value="male"/>
                     <label for="male">male</label>
+
                     </div>
-                    <div class="female">
-                    <input type="text" id="female"name="gender"value="female">
+                    <div>
+                    <input type="radio" id="female"name="gender"value="female"/>
                     <label for="female">female</label>
                 </div>
             </div>
@@ -33,10 +48,17 @@
 
             </form>
 
-            <div class="result container" id="result">
+            <div class="result container" id="result" style="display: none;"></div>
                 
             </div>
+            <footer class="site-footer">
+                <p>&copy; 2025 JOSH
+                <a href="https://github.com/yourusername/akan-name-generator" target="_blank">view on Github</a>
+                <a href="mailto:jokaranja26@gmail.com">contactme</a>
+                </p>
 
-            <script src="script.js"></script>
+            </footer>
+
+            <script src="src/script.js"></script>
     </body>
     </html>
