@@ -1,5 +1,5 @@
 # Akan Name Generator Project
-#### A website to maintain Ghanaian heritage by allowing users to input their name and date of birth to generate their Akan name, April 21, 2025
+#### A website to maintain Ghanaian heritage by allowing users to input their name and date of birth to generate their Akan name, April 21, 2025.
 #### By **Joshua Karanja**
 
 ## Description
